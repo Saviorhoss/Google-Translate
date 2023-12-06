@@ -11,13 +11,13 @@ from googletrans import Translator
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "5466053464:AAHp-mFAeO1qRNS85i6oAC4zMfDf04uoFqA")
 
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", 14699743))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "0cef89ed2c8025c16d2b4d42a1b8d792")
 
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "Savior_128")
 
 Deccan = Client(
         "ggt",
