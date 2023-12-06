@@ -57,21 +57,21 @@ START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Arteshenoor')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Arteshenoor')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Arteshenoor')
         ]]
     )
 
@@ -102,7 +102,7 @@ def echo(client, message):
  keybord = InlineKeyboardMarkup( [
         [
         InlineKeyboardButton("English", callback_data='en'),
-        InlineKeyboardButton("Tamil", callback_data='ta'),
+        InlineKeyboardButton("persian", callback_data='fa'),
         InlineKeyboardButton("Telugu",callback_data='te')
         ],
         [
